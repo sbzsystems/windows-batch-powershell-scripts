@@ -1,7 +1,7 @@
 cd C:\Program Files (x86)\Firebird\Firebird_3_0
 instsvc stop
 
-SET maindb="C:\Program Files (x86)\SBZ systems\EMDI\dbs\main.fdb"
+SET maindb="C:\Users\solon\Desktop\MAIN_NEW21.fdb"
 SET tempdb=%maindb:.fdb=.fbk%
 
 for /F "delims=" %%i in (%maindb%) do set filename="%%~nxi"
