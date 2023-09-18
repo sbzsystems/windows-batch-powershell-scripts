@@ -1,3 +1,7 @@
+# Create a rule in windows firewall for example "my_rule"
+# The following script gets from a url a list of ips, separated by comma
+# and adds them to Remote IP addresses in firewall scope.
+
 $url = "https://www.mydomain.com/get_ips.php"
 
 $response = Invoke-WebRequest -Uri $url
