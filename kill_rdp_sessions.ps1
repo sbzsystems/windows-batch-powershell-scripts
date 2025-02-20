@@ -1,4 +1,4 @@
-# Enforcing RDP Session Per User Limit: Auto-Logoff Excess Sessions
+# Title: Enforcing RDP Session Per User Limit: Auto-Logoff Excess Sessions
 #
 # This PowerShell script enforces a per-user session limit for Remote Desktop Protocol (RDP) connections on a local server. 
 # It retrieves active RDP sessions using qwinsta, filters out disconnected/system sessions, and identifies users exceeding two active sessions. 
